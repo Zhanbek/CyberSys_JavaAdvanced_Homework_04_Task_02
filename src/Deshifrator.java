@@ -26,7 +26,7 @@ public class Deshifrator {
                 bufferedWriter.write(resultLine);
                 bufferedWriter.newLine();
             }
-
+            System.out.println();
             System.out.println("Результат збережено у: " + new File(OUTPUT_FILE).getAbsolutePath());
         } catch (IOException e) {
             System.err.println("Помилка при роботі з файлом!");
